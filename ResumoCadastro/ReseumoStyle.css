@@ -1,0 +1,3 @@
+.nomedocliente, .endereço, .email, .bairro, .cidade, .complemento, .uf, .telefone, .cep {
+    display: flex;
+}

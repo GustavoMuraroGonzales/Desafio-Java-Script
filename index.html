@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+  <h2>Cadastro</h2>
+  <div class="container">
+    <form id="form">
+        <div class="first-row">
+          <div class="firts-row-NomeDoCliente">
+            <label for="inputNomeCliente">Nome do Cliente </label>
+            <input name="inputNomeCliente" type="text" class="form-control" id="inputNomeCliente" placeholder="João Da Silva" required>
+          </div>
+          <div class="first-row-Endereço">
+            <label for="inputEndereço">Endereço </label>
+            <input name="inputEdereço" type="text" class="form-control" id="inputEdereço" placeholder="Ex: Rua Dos Exemplos, 2" required>
+          </div>
+          <div class="first-row-Cidade">
+            <label for="inputCidade">Cidade </label>
+            <input name="inputCidade" type="text" class="form-control" id="inputCidade" placeholder="EX: Sorocaba" required>
+          </div>
+        </div>
+        <div class="second-row">
+            <div class="second-row-Email">
+                <label for="inputAddress">Email </label>
+                <input name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="Ex: email@email.com.br" required>
+            </div>
+            <div class="second-row-complemento">
+                <label for="inputAddress">Complemento </label>
+                <input name="inputComplemento" type="text" class="form-control" id="inputComplemento" placeholder="Ex: Casa, Apartamento, Bloco." required>
+            </div>
+            <div class="second-row-uf">
+                <label for="inputUF">UF</label>
+                <select id="inputUF" class="form-control" required>
+                  <option selected>Selecione o Estado</option>
+                  <option value="ACRE">AC</option>
+                  <option value="ALAGOAS">AL</option>
+                  <option value="AMAPA">AP</option>
+                  <option value="AMAZONAS">AM</option>
+                  <option value="BAHIA">BA</option>
+                  <option value="CEARA">CE</option>
+                  <option value="ESPIRITO SANTO">ES</option>
+                  <option value="GOIAS">GO</option>
+                  <option value="MARANHAO">MA</option>
+                  <option value="MATO GROSSO">MT</option>
+                  <option value="MATO GROSSO DO SUL">MS</option>
+                  <option value="MINAS GERAIS">MG</option>
+                  <option value="PARA">PA</option>
+                  <option value="PARAIBA">PB</option>
+                  <option value="PARANA">PR</option>
+                  <option value="PERNAMBUCO">PE</option>
+                  <option value="PIAUI">PI</option>
+                  <option value="RIO DE JANEIRO">RJ</option>
+                  <option value="RIO GRANDE DO NORTE">RN</option>
+                  <option value="RIO GRANDE DO SUL">RS</option>
+                  <option value="RONDONIA">RO</option>
+                  <option value="RORAIMA">RR</option>
+                  <option value="SANTA CATARINA">SC</option>
+                  <option value="SAO PAULO">SP</option>
+                  <option value="SERGIPE">SE</option>
+                  <option value="TOCANTINS">TO</option>
+                  <option value="DISTRITO FEDERAL">DF</option>
+                </select>
+              </div>
+        </div>
+        <div class="third-row">
+            <div class="third-row-Telefone">
+                <label for="inputTelefone">Telefone</label>
+                <input name="inputTelefone" type="text" class="form-control" id="inputTelefone" placeholder="EX: (12)12545-2541" required >
+            </div>
+            <div class="third-row-Bairro">
+                <label for="inputBairro">Bairro</label>
+                <input name="inputBairro" type="text" class="form-control" id="inputBairro" placeholder="EX: Jd . Planalto" required>
+            </div>
+            <div class="third-row-Cep">
+                <label for="inputCEP">CEP</label>
+                <input name="inputCEP" type="text" class="form-control" id="inputCEP" placeholder="EX: 12345-123" required>
+            </div>
+        </div>
+        <button type="submit" id="btnSubmit" value="submit">Submit</button>
+    </form>
+ </div>
+        
+  
+    <script src="js/index.js"></script>
+</body>
+</html>
