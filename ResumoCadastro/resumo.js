@@ -1,5 +1,5 @@
  function displayResumo() {
-    alert("CHEGOU NO RESUMO");
+
 var nomeClienteP = document.getElementById("nomeCliente");
 var nomeCliente = localStorage.getItem("nomeCliente");
 var emailp = document.getElementById("email");
