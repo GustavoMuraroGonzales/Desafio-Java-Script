@@ -1,6 +1,6 @@
  function displayResumo() {
-    alert("CHEGOU NO RESUMO");
-var nomeClienteP = document.getElementById("NomeCliente");
+
+var nomeClienteP = document.getElementById("nomeCliente");
 var nomeCliente = localStorage.getItem("nomeCliente");
 var emailp = document.getElementById("email");
 var email = localStorage.getItem("email");
@@ -22,14 +22,13 @@ var cep = localStorage.getItem ("cep");
 
 
 
-nomeClienteP.innerHTML = nomeCliente.innerValue;
-emailp.innerHTML = email.innerValue;
-enderecop.innerHTML = endereco.innerValue;
-bairrop.innerHTML = bairro.innerValue;
-cidadep.innerHTML = cidade.innerValue;
-complementop.innerHTML = complemento.innerValue;
-estadop.innerHTML = estado.innerValue;
-telefonep.innerHTML = telefone.innerValue;
-cepp.innerHTML - cep.innerValue;
-
- }
+nomeClienteP.innerHTML = "&nbsp" + nomeCliente;
+emailp.innerHTML = "&nbsp" + email;
+enderecop.innerHTML = "&nbsp" + endereco;
+bairrop.innerHTML = "&nbsp" + bairro;
+cidadep.innerHTML = "&nbsp" + cidade;
+complementop.innerHTML = "&nbsp" + complemento;
+estadop.innerHTML = "&nbsp" + estado;
+telefonep.innerHTML = "&nbsp" + telefone;
+cepp.innerHTML = "&nbsp" + cep;
+};
